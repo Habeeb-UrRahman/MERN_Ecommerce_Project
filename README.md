@@ -62,19 +62,6 @@
 
 4. **Access Admin Page**: Open your web browser and go to `http://localhost:3001` to view the admin page of the e-commerce application.
 
-
-## Additional Configuration
-
-
-- **Port Configuration**: If needed, you can change the port configurations in the respective 'index.js' files for the backend and 'package.json' files for the frontend and admin pages.
-
-
-## Troubleshooting
-
-If you encounter any issues during the setup process, please refer to the documentation or raise an issue on the repository.
-
-## Contributing
-
 If you would like to contribute to the development of this project, please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
