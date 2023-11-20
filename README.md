@@ -1,105 +1,82 @@
-# MERN_Ecommerce_Project
-
-<a name="br1"></a> 
-
-**How to Setup & Run this Project**
-
-❖ **Install NodeJs ( Ignore If Already Installed)**
-
-1\. Visit the official Node.js website i.e)
-
-<https://nodejs.org/en/download/>
-
-2\. Download the Node.js installer
-
-3\. Run the installer.
-
-4\. Follow the prompts in the installer.
-
-—First Run Backend then Frontend & Admin—
-
-❖ **Steps To Setup Backend Of The Project**
-
-1\. Open Project Folder In VS Code
-
-2\. Open Integrated Terminal
-
-\- Right Click on Sidebar > Select “Open In Integrated
-
-Terminal”
-
-3\. Type “npm install” and press Enter and Wait for
-
-Installation to be completed (requires Internet)
-
-4\. Setup The MongoDB
-
-**a.** Open this link - [LINK](https://www.mongodb.com/cloud/atlas/register)
-
-**b.** After that Sign Up on the website.
+## Backend Setup Instructions
 
 
+1. **Download and Extract Code**: Download the repository and extract all folders into a single directory on your machine.
 
-<a name="br2"></a> 
+2. **Navigate to the Backend Directory**: Open your integrated terminal and navigate to the 'e-commerce-backend' directory:
+    ```bash
+    cd path/to/e-commerce-backend
+    ```
 
-**c.** Click on New Project Option
+3. **Install Backend Dependencies**: Run the following command to install the necessary npm packages:
+    ```bash
+    npm install
+    ```
 
-**d.** After Creating Project go to Database Section &
+4. **Run the Backend Server**: Once the installation is complete, start the backend server by running:
+    ```bash
+    node ./index.js
+    ```
 
-Build a database
-
-**e.** Select M0 & Your Region & Create Database
-
-
-
-<a name="br3"></a> 
-
-**f.** Setup Username & Password & Create User
-
-**g.** Add IP 0.0.0.0 & Click on Add Entry
-
-**h.** Now Click on Finish & Close
-
-**i.** Now Click on Connect
+5. **Verify Server Running**: If all steps are successful, you should see the message 'Server Running on port 4000' in the terminal.
 
 
-
-<a name="br4"></a> 
-
-**j.** Now Select Compass Option
-
-**k.** And Copy the Connection String
-
-**l.** And Paste It in index.js replace <password> with
-
-password you set previously in 4.F & save changes
-
-5\. To Run Project use node .\index.js in Integrated Terminal
+## Frontend Setup Instructions
 
 
+1. **Navigate to the Frontend Directory**: Open a new integrated terminal window and navigate to the 'e-commerce-frontend' directory:
+    ```bash
+    cd path/to/e-commerce-frontend
+    ```
 
-<a name="br5"></a> 
+2. **Install Frontend Dependencies**: Run the following command to install the necessary npm packages:
+    ```bash
+    npm install
+    ```
 
-❖ **Steps To Run Frontend & Admin Panel Of The Project**
+3. **Run the Frontend Webpage**: Once the modules are installed, start the frontend webpage by running:
+    ```bash
+    npm start
+    ```
 
-1\. Open Project Folder In VS Code
-
-2\. Open Integrated Terminal
-
-○ Right Click on Sidebar > Select “Open In Integrated
-
-Terminal”
-
-3\. Type “npm install” and press Enter and Wait for
-
-Installation to be completed (requires Internet)
-
-4\. After Installation You will See ‘node\_modules’ Folder in
-
-the Sidebar
-
-5\. After that type “npm start” in terminal
+4. **Access Frontend**: Open your web browser and go to `http://localhost:3000` to view the frontend of the e-commerce application.
 
 
+## Admin Page Setup Instructions
 
-<a name="br6"></a> 
+
+1. **Navigate to the Admin Page Directory**: Open a new integrated terminal window and navigate to the 'e-commerce-admin' directory:
+    ```bash
+    cd path/to/e-commerce-admin
+    ```
+
+2. **Install Admin Page Dependencies**: Run the following command to install the necessary npm packages:
+    ```bash
+    npm install
+    ```
+
+3. **Run the Admin Page**: Once the modules are installed, start the admin page by running:
+    ```bash
+    npm start
+    ```
+
+4. **Access Admin Page**: Open your web browser and go to `http://localhost:3001` to view the admin page of the e-commerce application.
+
+
+## Additional Configuration
+
+
+- **Port Configuration**: If needed, you can change the port configurations in the respective 'index.js' files for the backend and 'package.json' files for the frontend and admin pages.
+
+
+## Troubleshooting
+
+If you encounter any issues during the setup process, please refer to the documentation or raise an issue on the repository.
+
+## Contributing
+
+If you would like to contribute to the development of this project, please follow our [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
