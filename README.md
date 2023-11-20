@@ -1,85 +1,79 @@
 # MERN_Ecommerce_Project
 
-# E-Commerce Extravaganza
+# E-commerce Project 'NexKart'
 
-Welcome to the extraordinary world of e-commerce where magic happens, and unicorns roam free!
+Here's the setup instructions to fire up 'NexKart' on your machine!
 
 ## Backend Setup Instructions
 
 
-1. **Download and Extract Code**: Like a superhero costume, unzip the repository and gather all its powers in one directory.
+1. **Download and Extract Code**: Download the repository and extract all folders into a single directory on your machine.
 
-2. **Navigate to the Backend Batcave**: Open your trusty terminal and make your way to the 'e-commerce-backend' directory:
+2. **Navigate to the Backend Directory**: Open your integrated terminal and navigate to the 'e-commerce-backend' directory:
     ```bash
     cd path/to/e-commerce-backend
     ```
 
-3. **Summon the Dependencies**: Channel your inner wizard and cast the spell:
+3. **Install Backend Dependencies**: Run the following command to install the necessary npm packages:
     ```bash
     npm install
     ```
 
-4. **Start the Backend Bat-Signal**: Fire up the backend server with:
+4. **Run the Backend Server**: Once the installation is complete, start the backend server by running:
     ```bash
     node ./index.js
     ```
 
-5. **Check for Bat-Signal Confirmation**: If everything went smoothly, you'll see the message 'Server Running on port 4000'. The city is safe!
+5. **Verify Server Running**: If all steps are successful, you should see the message 'Server Running on port 4000' in the terminal.
 
 
 ## Frontend Setup Instructions
 
 
-1. **Navigate to the Frontend Fortress**: Open another terminal window and journey to the 'e-commerce-frontend' fortress:
+1. **Navigate to the Frontend Directory**: Open a new integrated terminal window and navigate to the 'e-commerce-frontend' directory:
     ```bash
     cd path/to/e-commerce-frontend
     ```
 
-2. **Summon Frontend Minions**: Command your npm minions to install the necessary packages:
+2. **Install Frontend Dependencies**: Run the following command to install the necessary npm packages:
     ```bash
     npm install
     ```
 
-3. **Awaken the Frontend Wonderland**: Let the webpage come to life:
+3. **Run the Frontend Webpage**: Once the modules are installed, start the frontend webpage by running:
     ```bash
     npm start
     ```
 
-4. **Enter the Frontend Wonderland**: Open your web browser and teleport to `http://localhost:3000`. Enjoy the magical frontend experience!
+4. **Access Frontend**: Open your web browser and go to `http://localhost:3000` to view the frontend of the e-commerce application.
 
 
 ## Admin Page Setup Instructions
 
 
-1. **Navigate to the Admin Page Dungeon**: Open yet another terminal window and venture into the 'e-commerce-admin' dungeon:
+1. **Navigate to the Admin Page Directory**: Open a new integrated terminal window and navigate to the 'e-commerce-admin' directory:
     ```bash
     cd path/to/e-commerce-admin
     ```
 
-2. **Conjure Admin Page Spells**: Cast the npm spell to install the admin page packages:
+2. **Install Admin Page Dependencies**: Run the following command to install the necessary npm packages:
     ```bash
     npm install
     ```
 
-3. **Summon Admin Page Portal**: Bring the admin page to life:
+3. **Run the Admin Page**: Once the modules are installed, start the admin page by running:
     ```bash
     npm start
     ```
 
-4. **Enter the Admin Page Kingdom**: Visit `http://localhost:3001` in your browser. Manage your kingdom with pride!
+4. **Access Admin Page**: Open your web browser and go to `http://localhost:3001` to view the admin page of the e-commerce application.
 
 
 ## Additional Configuration
 
 
-- **Port Configuration**: Feeling adventurous? Customize the port settings in 'index.js' for the backend and 'package.json' for the frontend and admin pages.
+- **Port Configuration**: If needed, you can change the port configurations in the respective 'index.js' files for the backend and 'package.json' files for the frontend and admin pages.
 
-
-## Troubleshooting
-
-If gremlins invade your setup, consult the documentation or send a distress signal on the repository. Heroes will come to your aid!
-
-## Contributing
 
 If you want to join the superhero team behind this project, follow our [contribution guidelines](CONTRIBUTING.md). Capes optional.
 
