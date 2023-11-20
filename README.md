@@ -73,10 +73,3 @@ Here's the setup instructions to fire up 'NexKart' on your machine!
 
 
 - **Port Configuration**: If needed, you can change the port configurations in the respective 'index.js' files for the backend and 'package.json' files for the frontend and admin pages.
-
-
-If you want to join the superhero team behind this project, follow our [contribution guidelines](CONTRIBUTING.md). Capes optional.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details. Remember, even superheroes need licenses.
